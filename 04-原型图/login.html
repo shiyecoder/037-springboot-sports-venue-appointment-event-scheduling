@@ -1,0 +1,38 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>登录 · 体育场馆预约与赛事排期管理系统</title><link rel="stylesheet" href="mock.css"></head><body><body class="login">
+<div class="lg-left">
+  <img class="bg" src="assets/venue-01.jpg" alt="">
+  <div class="mask"></div>
+  <div class="in">
+    <div class="lg-logo"><div class="lm">体</div>体育场馆预约与赛事排期管理系统</div>
+    <div class="lg-mid">
+      <h1>一个时段、一块场地<br>只留给一个安排</h1>
+      <p>场馆档案、开放时段、个人与团体预约、候补转正、入场核验、设备交接、赛事编排与场地维护，统一在一套排期台账里协同。</p>
+      <div class="lg-stats">
+        <div><b>18</b><span>在册场馆</span></div>
+        <div><b>96%</b><span>时段核销率</span></div>
+        <div><b>412</b><span>本季赛事场次</span></div>
+      </div>
+    </div>
+    <div class="lg-foot">校园体育中心 · 场馆运营科　技术支持：场馆信息化小组</div>
+  </div>
+</div>
+<div class="lg-right">
+  <form class="lg-form" onsubmit="return false">
+    <h2>账号登录</h2>
+    <div class="sb">请使用场馆统一账号登录，连续 5 次失败将锁定 10 分钟</div>
+    <div class="fi"><label>登录账号</label><input class="inp" value="admin"></div>
+    <div class="fi"><label>登录密码</label><input class="inp" type="password" value="admin123"></div>
+    <div class="row"><label><input type="checkbox" checked> 记住账号</label><a href="#">忘记密码？</a></div>
+    <button class="go" data-goto="dashboard.html">登 录</button>
+    <div class="lg-hint">
+      <b>演示账号</b>　管理员 admin / admin123　·　工作人员 staff1 / staff123<br>
+      团体负责人 captain1 / captain123　·　普通用户 user1 / user123
+    </div>
+  </form>
+</div></div>
+<script>
+document.querySelectorAll('[data-goto]').forEach(function(el){
+  el.addEventListener('click', function(e){ e.preventDefault(); location.href = el.getAttribute('data-goto'); });
+});
+</script>
+</body></html>

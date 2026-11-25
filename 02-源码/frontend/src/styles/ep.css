@@ -1,0 +1,32 @@
+/* Element Plus 与设计系统对齐：主色 #0F3B5D，圆角 6px，控件高度 32px */
+:root{
+  --el-color-primary:#0F3B5D;
+  --el-color-primary-light-3:#2878B5;
+  --el-color-primary-light-5:#4FA3D9;
+  --el-color-primary-light-7:#CFE3F2;
+  --el-color-primary-light-8:#E3EEF7;
+  --el-color-primary-light-9:#EDF5FB;
+  --el-color-success:#1F7653;
+  --el-color-warning:#A9711F;
+  --el-color-danger:#B22B31;
+  --el-border-radius-base:6px;
+  --el-font-size-base:12.5px;
+}
+.el-button{height:32px;font-size:12.5px;border-radius:6px}
+.el-button--small{height:26px;font-size:12px}
+.el-input__wrapper,.el-select__wrapper{min-height:32px;font-size:12.5px;box-shadow:0 0 0 1px var(--line) inset}
+.el-input__inner{font-size:12.5px}
+.el-pagination{font-size:12.5px;--el-pagination-button-height:28px}
+.el-pagination button,.el-pager li{min-width:28px;height:28px;line-height:28px;font-size:12.5px}
+.el-dialog{border-radius:8px}
+.el-dialog__header{font-size:14px;font-weight:650;padding:16px 20px 10px}
+.el-dialog__body{padding:4px 20px 16px;font-size:12.5px}
+.el-drawer__header{font-size:14px;font-weight:650;margin-bottom:0;padding:16px 18px;border-bottom:1px solid var(--line)}
+.el-drawer__body{padding:18px}
+.el-form-item__label{font-size:12.5px;color:var(--text2)}
+.el-table{font-size:12.5px}
+.el-tabs__item{font-size:12.5px}
+.el-message{font-size:12.5px}
+.el-textarea__inner{font-size:12.5px}
+.el-descriptions__label,.el-descriptions__content{font-size:12.5px}
+.el-upload-list{display:none}

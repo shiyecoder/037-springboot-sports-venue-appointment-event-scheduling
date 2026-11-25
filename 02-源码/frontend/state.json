@@ -1,0 +1,1 @@
+{"no":"037","lane":1,"stages":{"design":"done","build":"running","verify":"pending","record":"pending"},"note":"前端 26 视图已写完（store sv_*，5170 代理 8080），待 npm build + verify + record","updated":"2026-11-01 12:50:00"}
